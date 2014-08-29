@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HelloMFC - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\user\AppData\Local\Temp\RSPE56A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/HelloMFC.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\±à³ÌÁ·Ï°\C++\HelloMFC\HelloMFC.cpp"
+]
+Creating command line "cl.exe @C:\Users\user\AppData\Local\Temp\RSPE56A.tmp" 
+<h3>Output Window</h3>
+Compiling...
+HelloMFC.cpp
+d:\±à³ÌÁ·Ï°\c++\hellomfc\hellomfc.h(2) : error C2504: 'CWinapp' : base class undefined
+d:\±à³ÌÁ·Ï°\c++\hellomfc\hellomfc.cpp(8) : error C2065: 'm_pMainWnd' : undeclared identifier
+d:\±à³ÌÁ·Ï°\c++\hellomfc\hellomfc.cpp(8) : error C2440: '=' : cannot convert from 'class CMyFrame *' to 'int'
+        This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+d:\±à³ÌÁ·Ï°\c++\hellomfc\hellomfc.cpp(9) : error C2227: left of '->ShowWindows' must point to class/struct/union
+d:\±à³ÌÁ·Ï°\c++\hellomfc\hellomfc.cpp(9) : error C2065: 'm_nCmdshow' : undeclared identifier
+d:\±à³ÌÁ·Ï°\c++\hellomfc\hellomfc.cpp(10) : error C2227: left of '->UpdateWindow' must point to class/struct/union
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+HelloMFC.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
