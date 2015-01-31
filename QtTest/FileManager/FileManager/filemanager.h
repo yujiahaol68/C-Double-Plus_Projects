@@ -11,9 +11,12 @@ class FileManager : public QMainWindow
 public:
 	FileManager(QWidget *parent = 0);
 	~FileManager();
+	void preloadingTableWidget();
 
 public slots:
 	void OpenFiles(); 
+	void Load_Self_Defined_Rule();
+	void StartToRevise();
 
 private:
 	Ui::FileManagerClass ui;
